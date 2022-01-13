@@ -4,7 +4,7 @@ My name is Quan!
 # Lab 1
 ## Lab 2
 [Link](https://www.youtube.com)
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDoraemon_(character)&psig=AOvVaw3uOY7UXfKB_jsvl7oGBg_R&ust=1642203911178000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCAurn0r_UCFQAAAAAdAAAAABAD)
+![Image](https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png)
 > Blockquote
 * List 1
 * List 2
