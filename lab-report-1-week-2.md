@@ -8,14 +8,6 @@
 </p>
 
 ---
-
-## What is a course-specific account?
-
-* A course-specific account is an account created for students in specific courses (i.e., CSE 12, CSE 15L, etc...).
-* These accounts grant students access to specific resources such as Ieng6 computers, so that they can use to do assignments in the class.
-* An example of a course-specific account look like this: cse15lwi22zz@ieng6.ucsd.edu
-* The "zz" is replaced by specific assigned letters to each student.
-
 ## How to gain access to a course-specific account?
 * First, in order to gain access to a course-specific account, you must go to https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
 
@@ -27,7 +19,7 @@
 * Second, you will then need to enter your UCSD username and Student ID, which will prompt information about what course-specific account belongs to your student ID.
 
 <p align="center">
-    <img width="1000" src= 2.png
+    <img width="1000" src= account.png
 
 </p>
 
@@ -56,7 +48,7 @@
 * Once you have obtain Visual Studio Code, you should see this screen. (Note: It might look different depend on the operating system you are on.)
 
 <p align="center">
-    <img width="1000" src= https://ucsd-cse15l-w22.github.io/images/vscode.png
+    <img width="1000" src= new.png
 
 </p>
 
@@ -84,7 +76,7 @@
 * You will then be prompt to enter your password (Note: While typing your password, nothing will appear on the screen and that is to be expected. Just continute and press enter once you done typing it).
 
 <p align="center">
-    <img width="1000" src= 
+    <img width="1000" src= password.png
 
 </p>
 
