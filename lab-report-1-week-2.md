@@ -20,7 +20,7 @@
 * First, in order to gain access to a course-specific account, you must go to https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
 
 <p align="center">
-    <img width="200" src= 2.png
+    <img width="1000" src= 2.png
 </p>
 
 * Second, you will then need to enter your UCSD username and Student ID, which will prompt information about what course-specific account belongs to your student ID.
