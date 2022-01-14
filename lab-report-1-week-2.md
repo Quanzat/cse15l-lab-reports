@@ -18,7 +18,7 @@
 
 ![Images](account.png)
 
-* You will be asked to change your password in order to activate your course-specific account. This process will take up to severals minutes for the changes to take effects. (Note: You can your current PID password if it met all the requirements.)
+* You will be asked to change your password in order to activate your course-specific account. This process will take up to several minutes for the changes to take effect. (Note: You can your current PID password if it met all the requirements.)
 
 <p align="center">
     <img width="1000" src= passwordchange.png
@@ -26,13 +26,13 @@
 </p>
 
 ## How to access Ieng6 Computer?
-* There are two ways to access the Ieng6 computers. The first is to access them on campus in the CSE building. The second way is to access them remotely. For this course specifically, you will be using <strong> Visual Studio Code </strong> to remotely access to these computer and do work on them. 
+* There are two ways to access the Ieng6 computers. The first is to access them on campus in the CSE building. The second way is to access them remotely. For this course specifically, you will be using <strong> Visual Studio Code </strong> to remotely access these computers and do work on them. 
 * To connect remotely, you will need your course-specific account and password that you have set in order to activate that account to log into the computer. 
 
 ## What is Visual Studio Code and how to get it?
-* This is an IDE which is also known as a code editor. It work like any other code editors out there. 
-* You can obtain it by either search it up or go to this link here: https://code.visualstudio.com/
-* There is a version for every platform out there so no need to worries about device compatibilities.
+* This is an IDE which is also known as a code editor. It works like any other code editor out there. 
+* You can obtain it by either searching it up or going to this link here: https://code.visualstudio.com/
+* There is a version for every platform out there so no need to worry about device compatibilities.
 
 <p align="center">
     <img width="1000" src= vscodedownload.png
@@ -40,21 +40,21 @@
 </p>
 
 ## Accessing Ieng6 Computer Remotely
-* Once you have obtain Visual Studio Code, you should see this screen. (Note: It might look different depend on the operating system you are on.)
+* Once you have obtained Visual Studio Code, you should see this screen. (Note: It might look different depending on the operating system you are on.)
 
 <p align="center">
     <img width="1000" src= new.png
 
 </p>
 
-* From here you will then open terminal. To achieve this, you either use keyboard short cut (Ctrl or Command + `) or navigating to Terminal --> New Terminal. 
+* From here you will then open the terminal. To achieve this, you either use keyboard shortcut (Ctrl or Command + `) or navigate to Terminal --> New Terminal. 
 
 <p align="center">
     <img width="1000" src= terminal.png
 
 </p>
 
-* In terminal, you will run a secure shell to the ieng6 computer with your course-specific address. Use the following command to begin (Note: The "zz" is replaced with your specific assigned letters): 
+* In the terminal, you will run a secure shell to the ieng6 computer with your course-specific address. Use the following command to begin (Note: The "zz" is replaced with your specific assigned letters): 
     
     `ssh cs15lwi22zz@ieng6.ucsd.edu`
 
@@ -66,7 +66,7 @@
     Are you sure you want to continue connecting (yes/no/[fingerprint])? 
     ```
 
-* You will then be prompt to enter your password (Note: While typing your password, nothing will appear on the screen and that is to be expected. Just continute and press enter once you done typing it).
+* You will then be prompted to enter your password (Note: While typing your password, nothing will appear on the screen and that is to be expected. Just continute and press enter once you are done typing it).
 
 <p align="center">
     <img width="1000" src= password.png
@@ -123,8 +123,8 @@
 
 </p>
 
-* You will be prompted to enter your password. After inputting your password, your file should be securely copy to the Ieng6 Machine.
-* To check if your file has successfully sent, you could log into the Ieng6 Machine and use the `ls` command to check if your file is there.
+* You will be prompted to enter your password. After inputting your password, your file should be securely copied to the Ieng6 Machine.
+* To check if your file has been successfully sent, you could log into the Ieng6 Machine and use the `ls` command to check if your file is there.
 
 <p align="center">
     <img width="1000" src= ls.png
@@ -133,7 +133,7 @@
 
 ## Using SSH key to access Ieng6
 ### Generating a key
-* The step of inputting password each time you want to send something to the server could be annoying. A solution to that is to set up an SSH key to gain access to the server without the need of a password. 
+* The step of inputting a password each time you want to send something to the server could be annoying. A solution to that is to set up an SSH key to gain access to the server without the need for a password. 
 
 * To do this, start by opening up a terminal on your computer (not the Ieng6 Machine) then type in `ssh-keygen`
 
@@ -147,19 +147,19 @@
 </p>
 
 ### Creating a directory called .ssh on the server
-* Log into the server and use the command `mkdir .ssh`. Once you are done, just logout of the Ieng6 Machine.
+* Log in to the server and use the command `mkdir .ssh`. Once you are done, just log out of the Ieng6 Machine.
 
 ### Copy the generated key into the newly created directory on the server
-* In the terminal run a scp command with your newly created public key
+* In the terminal run an scp command with your newly created public key
 * The command line should look something like this:
 
     `scp /Users/<your name>/.ssh/id_rsa.pub cs15lwi22aus@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
-* Congrat! Now you can log into the Ieng6 Machine without a password. 
+* Congrats! Now you can log into the Ieng6 Machine without a password. 
 
 ## Optimizing Remote Running
-* Now that you eliminated password, let try some command line that make remote running even faster.
-* Instead of logging into the machine and then run command like `ls` you can now use a command line such as `ssh cs15lwi22zz@ieng6.ucsd.edu ls` to just remotely run it on your local machine instead of logging in. 
+* Now that you eliminated the password, let try some command lines that makes the remote running even faster.
+* Instead of logging into the machine and then running commands like `ls` you can now use a command line such as `ssh cs15lwi22zz@ieng6.ucsd.edu ls` to just remotely run it on your local machine instead of logging in. 
 
 <p align="center">
     <img width="1000" src= 1.png
