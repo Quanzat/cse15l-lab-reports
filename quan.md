@@ -1,6 +1,6 @@
 My name is Quan!
 
-*cse15L*
+*I am a student in CSE 15L*
 
 **cse15L**
 
