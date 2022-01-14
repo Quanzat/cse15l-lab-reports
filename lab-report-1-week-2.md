@@ -1,2 +1,1 @@
-hi
 ![Image](screenshot.png)
