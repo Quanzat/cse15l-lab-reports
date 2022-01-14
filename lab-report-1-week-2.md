@@ -1,10 +1,10 @@
 <p align="center">
     <img width="200" src= https://images1.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg
+
 </p>
 
 <p align="center">
     <h1 align="center">CSE 15L: Course-specific Account and Ieng6 Computer</h1>
-    </p>
 </p>
 
 ---
@@ -21,18 +21,21 @@
 
 <p align="center">
     <img width="1000" src= accountlookup.png
+
 </p>
 
 * Second, you will then need to enter your UCSD username and Student ID, which will prompt information about what course-specific account belongs to your student ID.
 
 <p align="center">
     <img width="1000" src= 2.png
+
 </p>
 
 * You will be asked to change your password in order to activate your course-specific account. This process will take up to severals minutes for the changes to take effects. (Note: You can your current PID password if it met all the requirements.)
 
 <p align="center">
     <img width="1000" src= passwordchange.png
+
 </p>
 
 ## How to access Ieng6 Computer?
@@ -46,6 +49,7 @@
 
 <p align="center">
     <img width="1000" src= vscodedownload.png
+
 </p>
 
 ## What to do with Visual Studio Code?
@@ -53,12 +57,14 @@
 
 <p align="center">
     <img width="1000" src= https://ucsd-cse15l-w22.github.io/images/vscode.png
+
 </p>
 
 * From here you will then open terminal. To achieve this, you either use keyboard short cut (Ctrl or Command + `) or navigating to Terminal --> New Terminal. 
 
 <p align="center">
     <img width="1000" src= terminal.png
+
 </p>
 
 ## Accessing Ieng6 Computer Remotely
@@ -80,5 +86,6 @@
 
 <p align="center">
     <img width="1000" src= 
+    
 </p>
 
