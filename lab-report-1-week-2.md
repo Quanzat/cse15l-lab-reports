@@ -16,11 +16,11 @@
 * An example of a course-specific account look like this: cse15lwi22zz@ieng6.ucsd.edu
 * The "zz" is replaced by specific assigned letters to each student.
 
-## How to gain access to a couse-specific account?
+## How to gain access to a course-specific account?
 * First, in order to gain access to a course-specific account, you must go to https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
 
 <p align="center">
-    <img width="200" src= 
+    <img width="200" src= 2.png
 </p>
 
 * Second, you will then need to enter your UCSD username and Student ID, which will prompt information about what course-specific account belongs to your student ID.
