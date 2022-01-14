@@ -20,19 +20,19 @@
 * First, in order to gain access to a course-specific account, you must go to https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
 
 <p align="center">
-    <img width="1000" src= 2.png
+    <img width="1000" src= 
 </p>
 
 * Second, you will then need to enter your UCSD username and Student ID, which will prompt information about what course-specific account belongs to your student ID.
 
 <p align="center">
-    <img width="200" src= 
+    <img width="200" src= 2.png
 </p>
 
 * You will be asked to change your password in order to activate your course-specific account. (Note: this process will take some time and depend on the traffic load on the server.)
 
 <p align="center">
-    <img width="200" src= 
+    <img width="200" src= passwordchange.png
 </p>
 
 ## What is UCSD Ieng6 Computer?
