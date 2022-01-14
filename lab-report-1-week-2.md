@@ -11,17 +11,12 @@
 ## How to gain access to a course-specific account?
 * First, in order to gain access to a course-specific account, you must go to https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
 
-<p align="center">
-    <img width="1000" src= accountlookup.png
 
-</p>
+![Images](accountlookup.png)
 
 * Second, you will then need to enter your UCSD username and Student ID, which will prompt information about what course-specific account belongs to your student ID.
 
-<p align="center">
-    <img width="1000" src= account.png
-
-</p>
+![Images](account.png)
 
 * You will be asked to change your password in order to activate your course-specific account. This process will take up to severals minutes for the changes to take effects. (Note: You can your current PID password if it met all the requirements.)
 
