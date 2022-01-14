@@ -44,7 +44,7 @@
 
 </p>
 
-## What to do with Visual Studio Code?
+## Accessing Ieng6 Computer Remotely
 * Once you have obtain Visual Studio Code, you should see this screen. (Note: It might look different depend on the operating system you are on.)
 
 <p align="center">
@@ -58,8 +58,6 @@
     <img width="1000" src= terminal.png
 
 </p>
-
-## Accessing Ieng6 Computer Remotely
 
 * In terminal, you will run a secure shell to the ieng6 computer with your course-specific address. Use the following command to begin (Note: The "zz" is replaced with your specific assigned letters): 
     
@@ -80,3 +78,99 @@
 
 </p>
 
+* Once you are logged in, your screen will look something like this
+
+<p align="center">
+    <img width="1000" src= logged.png
+
+</p>
+
+## Use commands on the Ieng6 Computer
+* Now that you are on the server, you can now try out some commands:
+```
+    * cd = Change directory
+    * cd~ = Go to home directory
+    * ls = List all files in the current directory
+    * pwd = Print the current directory
+    * scp = secure copy 
+```
+
+### Example
+
+* Using `pwd` to see the curreny directory
+<p align="center">
+    <img width="1000" src= pwd.png
+
+</p>
+
+* Using `ls` to list files in the directory
+
+<p align="center">
+    <img width="1000" src= ls.png
+
+</p>
+
+## Doing a secured copy to Ieng6 Machine
+* Assuming you have some java files you would like to run on the Ieng6 machine, in order to do so, you would need to copy that file into the machine and then run it using `javac <file name>.java` and `java <file name>`.
+
+* First, you need to locate where the java file is located on your computer. 
+    * For example, mine is located in lab1 folder. I would need to run `cd '/Users/quanza/Desktop/CSE 15L/Lab1'` to change the directory to that folder. 
+
+<p align="center">
+    <img width="1000" src= cd.png
+
+</p>
+
+* Second, you would use `scp` to do the copy. To do this, type this command `scp <file name>.java <your course-specific address>:~/`
+
+<p align="center">
+    <img width="1000" src= scp.png
+
+</p>
+
+* You will be prompted to enter your password. After inputting your password, your file should be securely copy to the Ieng6 Machine.
+* To check if your file has successfully sent, you could log into the Ieng6 Machine and use the `ls` command to check if your file is there.
+
+<p align="center">
+    <img width="1000" src= ls.png
+
+</p>
+
+## Using SSH key to access Ieng6
+### Generating a key
+* The step of inputting password each time you want to send something to the server could be annoying. A solution to that is to set up an SSH key to gain access to the server without the need of a password. 
+
+* To do this, start by opening up a terminal on your computer (not the Ieng6 Machine) then type in `ssh-keygen`
+
+* When prompt to "enter file in which to save the key (Users/`<your name>`/.ssh/id_rsa):" just copy the part in the parentheses then click enter. 
+
+* When prompt to do password, just leave it blank by clicking enter twice. 
+
+<p align="center">
+    <img width="1000" src= keygen.png
+
+</p>
+
+### Creating a directory called .ssh on the server
+* Log into the server and use the command `mkdir .ssh`. Once you are done, just logout of the Ieng6 Machine.
+
+### Copy the generated key into the newly created directory on the server
+* In the terminal run a scp command with your newly created public key
+* The command line should look something like this:
+
+    `scp /Users/<your name>/.ssh/id_rsa.pub cs15lwi22aus@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
+* Congrat! Now you can log into the Ieng6 Machine without a password. 
+
+## Optimizing Remote Running
+* Now that you eliminated password, let try some command line that make remote running even faster.
+* Instead of logging into the machine and then run command like `ls` you can now use a command line such as `ssh cs15lwi22zz@ieng6.ucsd.edu ls` to just remotely run it on your local machine instead of logging in. 
+
+<p align="center">
+    <img width="1000" src= 1.png
+
+</p>
+
+<p align="center">
+    <h1 align="center">Thank you for reading! The End.</h1>
+</p>
