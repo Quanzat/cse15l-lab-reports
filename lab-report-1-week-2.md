@@ -60,13 +60,11 @@
 
 ## Use commands on the Ieng6 Computer
 * Now that you are on the server, you can now try out some commands:
-```
     * cd = Change directory
     * cd~ = Go to home directory
     * ls = List all files in the current directory
     * pwd = Print the current directory
     * scp = secure copy 
-```
 
 ### Example
 
