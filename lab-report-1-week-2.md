@@ -12,6 +12,7 @@
 ## What is a course-specific account?
 
 * A course-specific account is an account created for students in specific courses (i.e., CSE 12, CSE 15L, etc...).
+* These accounts grant students access to specific resources such as Ieng6 computers, so that they can use to do assignments in the class.
 * An example of a course-specific account look like this: cse15lwi22zz@ieng6.ucsd.edu
 * The "zz" is replaced by specific assigned letters to each student.
 
