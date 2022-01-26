@@ -4,7 +4,7 @@
 
 ---
 ## How to gain access to a course-specific account?
-* First, in order to gain access to a course-specific account, you must go to ![link] https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
+* First, in order to gain access to a course-specific account, you must go to !link https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
 
 
 ![Images](accountlookup.png)
