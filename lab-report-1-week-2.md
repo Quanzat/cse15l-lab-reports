@@ -4,7 +4,7 @@
 
 ---
 ## How to gain access to a course-specific account?
-* First, in order to gain access to a course-specific account, you must go to https://sdacs.ucsd.edu/~icc/index.php and look up your assigned account address. 
+* First, in order to gain access to a course-specific account, you must go to ![link] (https://sdacs.ucsd.edu/~icc/index.php) and look up your assigned account address. 
 
 
 ![Images](accountlookup.png)
@@ -23,7 +23,7 @@
 
 ## What is Visual Studio Code and how to get it?
 * This is an IDE which is also known as a code editor. It works like any other code editor out there. 
-* You can obtain it by either searching it up or going to this link here: ![link] https://code.visualstudio.com/
+* You can obtain it by either searching it up or going to this link here: ![link] (https://code.visualstudio.com/)
 * There is a version for every platform out there so no need to worry about device compatibilities.
 
 ![Images](vscodedownload.png)
