@@ -41,7 +41,7 @@
     
     `ssh cs15lwi22zz@ieng6.ucsd.edu`
     
-** NOTE: For Window User, you must download Open SSH in Window Setting before you area able to use the command above in the terminal. Otherwise, it will not work. Steps for downloading open SSH can be found here: [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+* NOTE: For Window User, you must download Open SSH in Window Setting before you area able to use the command above in the terminal. Otherwise, it will not work. Steps for downloading open SSH can be found here: [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 * For the first time connecting, you will get this message similar to the image below. All you need to do is type "yes". 
 
@@ -96,6 +96,9 @@
 ![Images](ls.png)
 
 ## Using SSH key to access Ieng6
+* For mac user, you can proceeed and follow the steps below. 
+* For window user, please follow the steps in [OpenSSH key management](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to generate your key. 
+
 ### Generating a key
 * The step of inputting a password each time you want to send something to the server could be annoying. A solution to that is to set up an SSH key to gain access to the server without the need for a password. 
 
