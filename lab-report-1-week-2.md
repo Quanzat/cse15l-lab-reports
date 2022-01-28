@@ -40,6 +40,8 @@
 * In the terminal, you will run a secure shell to the ieng6 computer with your course-specific address. Use the following command to begin (Note: The "zz" is replaced with your specific assigned letters): 
     
     `ssh cs15lwi22zz@ieng6.ucsd.edu`
+    
+** NOTE: For Window User, you must download Open SSH in Window Setting before you area able to use the command above in the terminal. Otherwise, it will not work. Steps for downloading open SSH can be found here: [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 * For the first time connecting, you will get this message similar to the image below. All you need to do is type "yes". 
 
