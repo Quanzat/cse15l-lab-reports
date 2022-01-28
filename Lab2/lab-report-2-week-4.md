@@ -42,7 +42,9 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 if (markdown.indexOf('(' != -1)) 
 ```
 
-(Figure. 2)
+<p align="right">
+    <h4 align="right">(Figure. 2)</h4>
+</p>
 
 ---
 # Code Change 2
@@ -56,6 +58,10 @@ if (markdown.indexOf('(' != -1))
 ```
 [(youtube.com]
 ```
+
+<p align="right">
+    <h4 align="right">(Figure. 3)</h4>
+</p>
 
 * Discussion:
     * temp
@@ -75,6 +81,11 @@ if (markdown.indexOf('(' != -1))
 ```
 [(google.com]
 ```
+
+<p align="right">
+    <h4 align="right">(Figure. 4)</h4>
+</p>
+
 
 * Discussion:
     * temp
