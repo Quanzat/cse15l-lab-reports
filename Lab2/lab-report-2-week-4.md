@@ -32,14 +32,14 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
     <h4 align="right">(Figure. 1)</h4>
 </p>
 
-* Discussion:
-    * In this case, the bug in this failure-inducing code is that `[a link!] google.com` is in a wrong format because it doesn't have parenthesis around `google.com`. As a result the symptom of this code throw an `IndexOutOfBoundsException` (Figure. 1). This is because after the code is run, index for `closeParen` is at `-1`, which is out of bound. 
+### Discussion:
+* In this case, the bug in this failure-inducing code is that `[a link!] google.com` is in a wrong format because it doesn't have parenthesis around `google.com`. As a result the symptom of this code throw an `IndexOutOfBoundsException` (Figure. 1). This is because after the code is run, index for `closeParen` is at `-1`, which is out of bound. 
 
-* Solutions:
-    * The solution that our group came up together is to include an `if` statement (Figure. 2) to account for a bug input where no parenthesis is found.
+### Solutions:
+* The solution that our group came up together is to include an `if` statement (Figure. 2) to account for a bug input where no parenthesis is found.
 
 ```
-if (markdown.indexOf('(' != -1)) 
+if (markdown.indexOf('(') != -1)) 
 ```
 
 <p align="right">
