@@ -16,10 +16,9 @@
 
 ![image](sc1.png)
 
-* Failure-inducing input:
-    * [test1](https://github.com/Quanzat/markdown-parse/blob/main/test1.md)
+### Failure-inducing input: [test1](https://github.com/Quanzat/markdown-parse/blob/main/test1.md)
 
-* Output:
+### Output:
 
 ```
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 19
@@ -28,25 +27,30 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
         at MarkdownParse.getLinks(MarkdownParse.java:18)
         at MarkdownParse.main(MarkdownParse.java:26)
 ```
+    (Figure. 1)
 
 * Discussion:
-    * temp
+    * In this case, the bug in this failure-inducing code is that `[a link!] google.com` is in a wrong format because it doesn't have parenthesis around `google.com`. As a result the symptom of this code throw an `IndexOutOfBoundsException` (Figure. 1). This is because after the code is run, index for `closeParen` is at `-1`, which is out of bound. 
 
+* Solutions:
+    * The solution that our group came up together is to include an `if` statement (Figure. 2) to account for a bug input where no parenthesis is found.
 
-
+```
+if (markdown.indexOf('(' != -1)) 
+```
+    (Figure. 2)
 
 ---
 # Code Change 2
 
 ![image](sc2.png)
 
-* Failure-inducing input:
-    * [test2](https://github.com/Quanzat/markdown-parse/blob/main/test2.md)
+### Failure-inducing input: [test2](https://github.com/Quanzat/markdown-parse/blob/main/test2.md)
 
 * Output:
 
 ```
-[(youtube.com)]
+[(youtube.com]
 ```
 
 * Discussion:
@@ -60,13 +64,12 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 
 ![image](sc3.png)
 
-* Failure-inducing input:
-    * [test3](https://github.com/Quanzat/markdown-parse/blob/main/test3.md)
+### Failure-inducing input: [test3](https://github.com/Quanzat/markdown-parse/blob/main/test3.md)
 
 * Output:
 
 ```
-[(google.com)]
+[(google.com]
 ```
 
 * Discussion:
