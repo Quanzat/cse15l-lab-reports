@@ -28,7 +28,9 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
         at MarkdownParse.main(MarkdownParse.java:26)
 ```
 
-(Figure. 1)
+<p align="right">
+    </ align = "right"> (Figure. 1) </>
+</p>
 
 * Discussion:
     * In this case, the bug in this failure-inducing code is that `[a link!] google.com` is in a wrong format because it doesn't have parenthesis around `google.com`. As a result the symptom of this code throw an `IndexOutOfBoundsException` (Figure. 1). This is because after the code is run, index for `closeParen` is at `-1`, which is out of bound. 
