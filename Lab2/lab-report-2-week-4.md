@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-     <img width="200" src= lol.JPG 
+     <img width="200" src= lol.JPG>
  </p>
 
 # Introduction
