@@ -29,7 +29,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 ```
 
 <p align="right">
-    </ align = "right"> (Figure. 1) </>
+    <h4 align="right">(Figure. 1)</h4>
 </p>
 
 * Discussion:
