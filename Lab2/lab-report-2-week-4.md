@@ -36,7 +36,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 
 * In this case, the bug in this failure-inducing code is that `[a link!] google.com` is in a wrong format because it doesn't have parenthesis around `google.com`. As a result the symptom of this code throw an `IndexOutOfBoundsException` (Figure. 1). This is because after the code is run, index for `closeParen` is at `-1`, which is out of bound.
 
-### Solutions
+### Solution
 
 * The solution that our group came up together is to include an `if` statement (Figure. 2) to account for a bug input where no parenthesis is found.
 
@@ -72,7 +72,7 @@ if (markdown.indexOf('(') != -1)){
 
 * In this case, the bug in this failure-inducing code is that `link (youtube.com)` is in a wrong format because it doesn't have bracket around `link`. As a result the symptom of this code would still return a link when it not supposed to. The correct output of this failure-inducing code should of been `[]` and not `[youtube.com]`.
 
-### Solutions
+### Solution
 
 * To fix this bug, our group came up with the idea of adding in another `if` statement (Figure.4 ) to make sure that the code would not return if either bracket or parenthesis is missing. With this fix, the code would only return the link if both bracket and parenthesis is found. 
 
@@ -105,14 +105,16 @@ if (markdown.indexOf('(') != -1) && markdown.indexOf("[") != -1){
 
 ### Discussion
 
-* temp
+* In this case, the bug produced by the failure-inducing code is that 
 
-### Solutions
+### Solution
 
-* temp
+* To fix this code, our group added in one more `if` statement (Figure. 6) to ensure that the input code should have no space between `[link]` and `(google.com)`. Otherwise, if this `if` condition is not met, then it would just end the program and return `[]`.
 
 ```
-temp 
+if (openParen-nextCloseBracket == 1){
+    toReturn.add(markdown.substring(openParen + 1, closeParen));
+}
 ```
 
 <p align="right">
