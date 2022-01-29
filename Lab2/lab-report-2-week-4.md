@@ -105,7 +105,7 @@ if (markdown.indexOf('(') != -1) && markdown.indexOf("[") != -1){
 
 ### Discussion
 
-* In this case, the bug in the failure-inducing code is that there is a space between `[link]` and `(google.com)`. The symptom of the program gave us `google.com`. This is wrong because the correct format of link should include no space in between and if there is space, it should of return `[]` instead of a link. 
+* In this case, the bug in the failure-inducing code is that there is a space between `[link]` and `(google.com)`. The symptom of the program gave us `[google.com]` (Figure. 5). This is wrong because the correct format of link should include no space in between and if there is space, it should of return `[]` instead of a link. 
 
 ### Solution
 
