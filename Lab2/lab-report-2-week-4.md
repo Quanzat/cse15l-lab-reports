@@ -20,6 +20,8 @@
 
 ### Output
 
+* Below is the output before the code was changed as shown above in the picture.
+
 ```
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 19
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3751)
@@ -58,7 +60,9 @@ if (markdown.indexOf('(') != -1)){
 
 ### Failure-inducing input: [test2](https://github.com/Quanzat/markdown-parse/blob/main/test2.md)
 
-* Output:
+### Output:
+
+* Below is the output before the code was changed as shown above in the picture.
 
 ```
 [youtube.com]
@@ -95,6 +99,8 @@ if (markdown.indexOf('(') != -1) && markdown.indexOf("[") != -1){
 ### Failure-inducing input: [test3](https://github.com/Quanzat/markdown-parse/blob/main/test3.md)
 
 ### Output:
+
+* Below is the output before the code was changed as shown above in the picture.
 
 ```
 [google.com]
