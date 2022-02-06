@@ -21,6 +21,8 @@
 ### Run Command
 ```
 javac MarkdownParse.java
+```
+```
 java MarkdownParse test1.md
 ```
 
@@ -69,6 +71,8 @@ if (markdown.indexOf('(') != -1)){
 ### Run Command
 ```
 javac MarkdownParse.java
+```
+```
 java MarkdownParse test2.md
 ```
 
@@ -113,6 +117,8 @@ if (markdown.indexOf('(') != -1) && markdown.indexOf("[") != -1){
 ### Run Command
 ```
 javac MarkdownParse.java
+```
+```
 java MarkdownParse test3.md
 ```
 
