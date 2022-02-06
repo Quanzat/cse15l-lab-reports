@@ -18,6 +18,12 @@
 
 ### Failure-inducing input: [test1](https://github.com/Quanzat/markdown-parse/blob/main/test1.md)
 
+### Run Command
+```
+javac MarkdownParse.java
+java MarkdownParse test1.md
+```
+
 ### Output
 
 * Below is the output before the code was changed as shown above in the picture.
@@ -60,6 +66,12 @@ if (markdown.indexOf('(') != -1)){
 
 ### Failure-inducing input: [test2](https://github.com/Quanzat/markdown-parse/blob/main/test2.md)
 
+### Run Command
+```
+javac MarkdownParse.java
+java MarkdownParse test2.md
+```
+
 ### Output:
 
 * Below is the output before the code was changed as shown above in the picture.
@@ -97,6 +109,12 @@ if (markdown.indexOf('(') != -1) && markdown.indexOf("[") != -1){
 ![image](sc3.png)
 
 ### Failure-inducing input: [test3](https://github.com/Quanzat/markdown-parse/blob/main/test3.md)
+
+### Run Command
+```
+javac MarkdownParse.java
+java MarkdownParse test3.md
+```
 
 ### Output:
 
