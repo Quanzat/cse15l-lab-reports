@@ -49,7 +49,7 @@ and you would be able to log in.
         User cs15lwi22zzz (use your username)
     ```
 
-NOTE: Replace the `zzz` with your specific username (Example below). 
+    NOTE: Replace the `zzz` with your specific username (Example below). 
 
 ![image](code.png)
 
