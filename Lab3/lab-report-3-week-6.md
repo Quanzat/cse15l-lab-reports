@@ -8,8 +8,8 @@
 
 # Introduction
 
-* This lab report will be be about streamline the ssh configuration to log into 
-ieng6 computer a bit more faster and even a bit more personalized if you choose.
+* This lab report will be about streamline the ssh configuration to log into 
+ieng6 computer a bit faster and even a bit more personalized if you choose.
 
 ---
 
@@ -20,7 +20,7 @@ ieng6 computer a bit more faster and even a bit more personalized if you choose.
 If, you already streamline the process of logging into ieng6 computer, you 
 wouldn't have to even enter a password.
 
-* Our goal now is to login to ieng6 computer with only input such as `ssh ieng6` 
+* Our goal now is to log in to ieng6 computer with only input such as `ssh ieng6` 
 and you would be able to log in.
 
 ---
@@ -81,7 +81,7 @@ and you would be able to log in.
 
 ---
 # Extra
-* For this section, we will cover a troubleshooting step that you might need if you encouter an issue logging into the ieng6 server. Moreover, we will also cover a fun step to personalized your username for when calling `ssh`.
+* For this section, we will cover a troubleshooting step that you might need if you encounter an issue logging into the ieng6 server. Moreover, we will also cover a fun step to personalized your username for when calling `ssh`.
 
 ## Troubleshooting
 * To troubleshoot an issue where you can not log into the ieng6 server with `ssh ieng6`, completing this step below might solve the problem.
@@ -97,7 +97,7 @@ and you would be able to log in.
 
 ![image](name.png)
 
-* The image below showcase how you can now login with your personal username.
+* The image below showcase how you can now log in with your personal username.
 
     ![image](proof.png)
     
