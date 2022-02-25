@@ -48,7 +48,7 @@
 
 ### Discussion
 
-* For this bug, it is doable to fix this code with changes that is less than 10 lines of code. We achieve this by adding in a couple lines that would check the indexes of backticks, brackets and parenthesis. This would check if any markdown contain brackets or parenthesis within any indexes of backsticks, and if so, then the code would break, and return `[]` as the correct result. 
+* For this bug, it is doable to fix this code with changes that is less than 10 lines of code. We achieve this by adding in a couple lines that would check the indexes of backticks, brackets and parenthesis. The logic for this code would be something along the line of checking for the indexes of backsticks and comparing it with parenthesis. Then it would return the link if no link is within the indexes of open and close backsticks. This code logic would also ignore backsticks if and only when both open and close backsticks are in front or when a close backstick is behind a close parenthesis. With this condition, no link is within backsticks and so it should return normally. 
 
 ## Reviewed Implementation
 
@@ -118,7 +118,7 @@
 
 ### Discussion
 
-* Considering this bug, it is possible to fix the code within 10 lines as we would need to add in some code that check if the close parenthesis is also on the same line as the open parenthesis. If two parentheses is not on the same line then the code would break and return `[]` as the correct output. 
+* Considering this bug, it is possible to fix the code within 10 lines as we would need to add in some code with the logic that it continue checking for next indexes until it reaches a close bracket or close parenthesis. Moreover, if there is empty lines in between, then the code should move on to the next index. With this logic, the code should keep checking until it completely go through the entire snippet and treat it as there were no empty indexes in between. 
 
 ## Reviewed Implementation
 
