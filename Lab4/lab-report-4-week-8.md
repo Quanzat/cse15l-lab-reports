@@ -48,9 +48,7 @@
 
 ### Discussion
 
-filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler 
-
-
+* For this bug, it is doable to fix this code with changes that is less than 10 lines of code. We achieve this by adding in a couple lines that would check the indexes of backticks, brackets and parenthesis. This would check if any markdown contain brackets or parenthesis within any indexes of backsticks, and if so, then the code would break, and return `[]` as the correct result. 
 
 ## Reviewed Implementation
 
@@ -85,8 +83,7 @@ filler filler filler filler filler filler filler filler filler filler filler fil
 
 ### Discussion
 
-filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler 
-
+* This code is not fixable with any code that is less than 10 lines. Firstly, we need to consider that some code within this snippet work while others do not. Moreover, the third code did not even produce an output at all. To fix this we would need to add in some lines that would check for each specific condition. Therefore, these errors and its complexity would require more than 10 lines to fix as each case would need to be considered. 
 
 ## Reviewed Implementation
 
@@ -121,7 +118,7 @@ filler filler filler filler filler filler filler filler filler filler filler fil
 
 ### Discussion
 
-filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler 
+* Considering this bug, it is possible to fix the code within 10 lines as we would need to add in some code that check if the close parenthesis is also on the same line as the open parenthesis. If two parentheses is not on the same line then the code would break and return `[]` as the correct output. 
 
 ## Reviewed Implementation
 
