@@ -70,6 +70,16 @@ and you would be able to log in.
     ![image](ssh_login.png)
 
 ---
+
+# SCP With New Username
+* Below is a demonstration of doing a secure copy a file into ieng6 using the new username using the command below:
+
+    `scp lol.JPG ieng6`
+
+
+    ![image](SCP.png)
+
+---
 # Extra
 * For this section, we will cover a troubleshooting step that you might need if you encouter an issue logging into the ieng6 server. Moreover, we will also cover a fun step to personalized your username for when calling `ssh`.
 
