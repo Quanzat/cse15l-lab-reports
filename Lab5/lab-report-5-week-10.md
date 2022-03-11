@@ -56,6 +56,7 @@
     * There are also substantially more differences, but this is the first 2 from the list, which is why there are only two differences in the above screenshot. 
 
 ---
+
 # Differences #1
 
 * The first differences between the two files is within test file called `22.md`. 
@@ -85,7 +86,9 @@
 * The issue within my code is that it within the while loop, does not check for what could be a potential link within the parenthesis. By potential link, I am referring to checking if there are quotations within the parenthesis. So to fix this, we would have to add in an if condition to check for a potential link within the parenthesis. The location where this code could be is after the last if statement but before the line `currentIndex = closeParen + 1;`. 
 
 ---
+
 # Differences #2
+
 * The second differences between the two files is within test file called `32.md`. 
 
 ## The Output Of The File:
@@ -110,8 +113,10 @@
 
 ![image](myImp.png) 
 
-* Similar to the previous differences, my code is not checking for a potential link within the parenthesis. Therefore, adding an if condition to check for a potential link within the while loop should fix the problem. 
+* Similar to the previous differences, my code is not checking for a potential link within the parenthesis. Therefore, adding an if condition to check for a potential link within the while loop should fix the problem.
+
 ---
+
 <p align="center">
     <h1 align="center">The End</h1>
 </p>
